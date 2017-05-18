@@ -565,14 +565,14 @@ hr.hr-title {
 }
 .gradient-btn span:hover,
 .gradient-btn span:focus {
-    color: #19abd6 !important;
+    color: #00c0f8 !important;
 }
 .gradient-btn:hover,
 .gradient-btn:focus {
     -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-    color: #19abd6;
+    color: #00c5ff !important;
 }
 /* get-skapp-now */
 
