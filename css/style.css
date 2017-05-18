@@ -129,13 +129,7 @@ hr {
 .inline-block {
     display: inline-block;
 }
-footer {
-    height: 50px;
-    width: 100%;
-    margin-top: -50px;
-    min-width: 1170px;
-    position: relative;
-}
+
 /* index */
 
 .white-bg {
@@ -804,12 +798,7 @@ hr.hr-title {
     -ms-flex-flow: row wrap;
     flex-flow: row wrap;
 }
-.card {
-    padding: 10px;
-    border: 1px solid #ddd;
-    background: #fefefe;
-    border-radius: 3px;
-    margin: 20px;
+.card-container {   
     -webkit-box-flex: 1;
     -ms-flex: 1 1 25%;
     flex: 1 1 25%;
@@ -827,17 +816,13 @@ hr.hr-title {
     box-shadow: 0 0 20px rgba(0,0,0,0.15);
     transition: box-shadow .3s;
 	position: relative;
+	margin: 15px;
 }
-.card-first {
-    
-    
-    flex: 1 1 48%;
-    background: #bf0000;
+.card-first {        
+    flex: 1 1 48%;    
 }
-.card-second {
-        
-    flex: 1 1 31%;
-    background: #0031d6;
+.card-second {        
+    flex: 1 1 31%;    
 }
 
 .card:hover {
@@ -946,4 +931,12 @@ hr.hr-title {
 }
 .card-footer .post-info li i {
     margin-right: 8px;
+}
+
+/* feedback */
+.feedback {
+	border: 1px solid #000;
+}
+.mt50 {
+	margin-top: 50px;
 }
