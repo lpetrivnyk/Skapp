@@ -129,7 +129,6 @@ hr {
 .inline-block {
     display: inline-block;
 }
-
 /* index */
 
 .white-bg {
@@ -695,6 +694,9 @@ hr.hr-title {
 .testimonial p {
     color: #fff;
 }
+.testimonial a {
+    color: rgba(0,0,0,0.5);
+}
 .testimonial .description {
     font-size: 16px;
     line-height: 27px;
@@ -795,7 +797,7 @@ hr.hr-title {
     -ms-flex-flow: row wrap;
     flex-flow: row wrap;
 }
-.card-container {   
+.card-container {
     -webkit-box-flex: 1;
     -ms-flex: 1 1 25%;
     flex: 1 1 25%;
@@ -809,21 +811,20 @@ hr.hr-title {
     -webkit-box-direction: normal;
     -ms-flex-flow: row wrap;
     flex-flow: row wrap;
-	background: #fff;
-    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+    background: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
     transition: box-shadow .3s;
-	position: relative;
-	margin: 15px;
+    position: relative;
+    margin: 10px;
 }
-.card-first {        
-    flex: 1 1 48%;    
+.card-first {
+    flex: 1 1 48%;
 }
-.card-second {        
-    flex: 1 1 31%;    
+.card-second {
+    flex: 1 1 31%;
 }
-
 .card:hover {
-    box-shadow: 0 0 50px rgba(0,0,0,0.2);
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
 }
 .card-thumb {
     height: 208px;
@@ -837,7 +838,7 @@ hr.hr-title {
 .card-thumb img {
     display: block;
     opacity: 1;
-    transition: opacity .3s,transform .8s;
+    transition: opacity .3s, transform .8s;
     transform: scale(1);
 }
 .card:hover .card-thumb img {
@@ -846,11 +847,11 @@ hr.hr-title {
 }
 .card-date {
     background: #f54ea2;
-    background: -moz-linear-gradient(left,rgba(245,78,162,1) 0,rgba(255,118,118,1) 100%);
-    background: -webkit-linear-gradient(left,rgba(245,78,162,1) 0,rgba(255,118,118,1) 100%);
-    background: linear-gradient(to right,rgba(245,78,162,1) 0,rgba(255,118,118,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f54ea2',endColorstr='#ff7676',GradientType=1);
-    position: absolute;        
+    background: -moz-linear-gradient(left, rgba(245, 78, 162, 1) 0, rgba(255, 118, 118, 1) 100%);
+    background: -webkit-linear-gradient(left, rgba(245, 78, 162, 1) 0, rgba(255, 118, 118, 1) 100%);
+    background: linear-gradient(to right, rgba(245, 78, 162, 1) 0, rgba(255, 118, 118, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#f54ea2', endColorstr='#ff7676', GradientType=1);
+    position: absolute;
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -859,8 +860,8 @@ hr.hr-title {
     line-height: 12px;
     font-weight: 700;
     padding-top: 12px;
-	right: 30px;
-	top: 20px;
+    right: 30px;
+    top: 20px;
 }
 .card-date-day {
     display: block;
@@ -899,18 +900,17 @@ hr.hr-title {
     font-size: 14px;
     line-height: 27px;
     opacity: 0;
-    transition: opacity .2s,transform .2s;
+    transition: opacity .2s, transform .2s;
     transition-delay: 0s;
     transform: translateY(25px);
 }
-
 .card-footer {
-	position: absolute;
+    position: absolute;
     color: #a3a9ab;
     bottom: 20px;
     left: 60px;
     right: 0px;
-    font-size: 11px;       
+    font-size: 11px;
 }
 .card-footer .post-info {
     padding: 5px 0;
@@ -929,23 +929,23 @@ hr.hr-title {
 .card-footer .post-info li i {
     margin-right: 8px;
 }
-
 /* feedback */
 
 .subscribe-form {
-	flex-basis: 100%;
+    flex-basis: 100%;
 }
 .subscribe-form p {
-    font-family: "Montserrat",serif;
+    font-family: "Montserrat", serif;
     font-size: 16px;
     color: #40545a;
     margin-bottom: 30px;
 }
-.input-name, .input-email {
-	flex-basis: 41.66666667%;
+.input-name,
+.input-email {
+    flex-basis: 41.66666667%;
 }
 .btn-send {
-	flex-basis: 16.66666667%;
+    flex-basis: 16.66666667%;
 }
 .feedback .newsletter input {
     font-size: 16px;
@@ -958,7 +958,8 @@ hr.hr-title {
     color: #969696;
     transition: all 1s ease;
 }
-.form-control, input {
+.form-control,
+input {
     border-width: 2px;
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -977,16 +978,16 @@ hr.hr-title {
 }
 .newsletter .subscribe-btn {
     background: #f54ea2;
-    background: -moz-linear-gradient(-45deg,rgba(245,78,162,1) 10%,rgba(255,118,118,1) 100%);
-    background: -webkit-linear-gradient(-45deg,rgba(245,78,162,1) 10%,rgba(255,118,118,1) 100%);
-    background: linear-gradient(135deg,rgba(245,78,162,1) 10%,rgba(255,118,118,1) 100%);
+    background: -moz-linear-gradient(-45deg, rgba(245, 78, 162, 1) 10%, rgba(255, 118, 118, 1) 100%);
+    background: -webkit-linear-gradient(-45deg, rgba(245, 78, 162, 1) 10%, rgba(255, 118, 118, 1) 100%);
+    background: linear-gradient(135deg, rgba(245, 78, 162, 1) 10%, rgba(255, 118, 118, 1) 100%);
     display: inline-block;
     margin: 0 auto;
     overflow: hidden;
     width: 90px;
     height: 90px;
     border-radius: 50%;
-	transition: .5s;
+    transition: .5s;
 }
 .newsletter .subscribe-btn i {
     font-size: 34px;
@@ -994,11 +995,152 @@ hr.hr-title {
     color: #fff;
 }
 .newsletter .subscribe-btn:hover {
-    -webkit-box-shadow: 0 0 30px rgba(245,78,162,1);
-    -moz-box-shadow: 0 0 30px rgba(245,78,162,1);
-    box-shadow: 0 0 30px rgba(245,78,162,1);
-	transition: .5s;
+    -webkit-box-shadow: 0 0 30px rgba(245, 78, 162, 1);
+    -moz-box-shadow: 0 0 30px rgba(245, 78, 162, 1);
+    box-shadow: 0 0 30px rgba(245, 78, 162, 1);
+    transition: .5s;
+}
+/* contact */
+
+.primary-box {
+	margin: auto;   
+}
+.contact-box {
+	text-align: center;
+}
+.contact-box .contact-icon {
+    margin: 0 auto 25px;
+}
+.contact-box .contact-icon i {
+    font-size: 60px;
+}
+.contact-box .contact-icon i {
+    font-size: 60px;
+}
+.contact .gradient-text-01 {
+    background: #19abd6;
+    background: -webkit-linear-gradient(left,rgba(25,171,214,1) 35%,rgba(30,200,252,1) 100%);
+    background: -moz-linear-gradient(left,rgba(25,171,214,1) 35%,rgba(30,200,252,1) 100%);
+    background: linear-gradient(to right,rgba(25,171,214,1) 35%,rgba(30,200,252,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.contact-box .title {
+    font-size: 18px;
+    margin-bottom: 15px;
+    position: relative;
+    color: #40545a;
+}
+.contact-box .description {
+    font-size: 16px;
+    line-height: 24px;
 }
 
+/* footer */
 
+.appstore {
+    padding: 80px 0;
+    display: flex;
+    margin-bottom: 15px;
+    transition: ease .6s;
+    -webkit-transition: ease .6s;
+    -moz-transition: ease .6s;
+    -o-transition: ease .6s;
+    -ms-transition: ease .6s;	
+}
+.appstore-icon img {
+    margin: 0 auto;
+    height: 80px;
+    width: 80px;
+    display: block;
+}
+.appstore .info {
+    text-align: left;
+    margin-left: 20px;
+}
+.appstore .info h4 {
+    color: #40545a;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.appstore .info>p {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+.appstore .ratings {
+    color: #f2b01e;
+	display: inline;
+}
+.container-justify {
+	justify-content: space-between;
+	margin-bottom: -30px;
+}
+
+.copyright-block {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: flex-start;
+	flex-basis: 50%;
+	
+}
+.copyright {
+    font-size: 16px;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.social {	
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: flex-end;
+	flex-basis: 50%;
+	-ms-align-items: center;
+	align-items: center;
+}
+ul.social-network {
+    list-style: none;
+    margin-left: 0!important;
+    padding: 0;
+    text-align: right;
+}
+ul.social-network li {
+    display: inline;
+    margin: 0 2px;
+}
+.social-network li a {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    font-size: 26px;
+    color: #242f35;
+    text-decoration: none;
+    -webkit-transition: ease .6s;
+    -moz-transition: ease .6s;
+    -ms-transition: ease .6s;
+    -o-transition: ease .6s;
+    transition: ease .6s;
+}
+.social-network a:hover {
+    background-color: #3cf;
+	color: #fff;
+}
+.social-network li i {
+    margin: 0;
+    line-height: 50px;
+    text-align: center;
+}
 
